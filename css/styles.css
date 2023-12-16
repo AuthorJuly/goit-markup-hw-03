@@ -9,13 +9,62 @@
   --slatecolor: #434455;
   --cornflowercolor: #e7e9fc;
   --cloudcolor: #f4f4fd;
+  --greencolor: #31d0aa;
+  --lightslatecolor: #8e8f99;
+  --navybluemodalcolor: #2e2f42;
+  --greycolor: #2e2f42;
+  --dairycolor: #fcfcfc;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 /* Main Page */
 body {
+  width: 1440px;
   font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Header */
+.header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  padding: 0 15px;
+  width: 1158px;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
