@@ -211,10 +211,12 @@ img {
 }
 
 /* 3rd Section*/
-.third,
-.fourth {
+.third {
+  margin-top: -120px;
+  justify-content: center;
+  margin-bottom: 72px;
   color: var(--NAVY-BLUE, #2e2f42);
-  text-align: center;
+  display: flex;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -222,16 +224,62 @@ img {
   text-transform: capitalize;
 }
 
-.fourth-section {
+.third-list {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
+
+.listing {
+  width: calc((100%-48px) / 3);
+}
+
+/* 4th Section*/
+.fourth-list {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+  justify-content: center;
+}
+
+.fourth-container {
+  padding: 120px;
+  margin-top: -120px;
+  width: 1440px;
   background-color: #f4f4fd;
 }
-
-.list .nav-links {
-  background-color: #fff;
+.fourth {
+  justify-content: center;
+  margin-bottom: 72px;
+  color: var(--NAVY-BLUE, #2e2f42);
+  display: flex;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.fourth-listing {
+  height: 380px;
+  flex-basis: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.employee-name {
+  padding: 32px 0;
+  text-align: center;
 }
 
+/*footer*/
 .below {
   background-color: var(--NAVY-BLUE, #2e2f42);
+  padding: 100px 0;
+}
+.footing {
+  margin: -120px 0 -8px -8px;
 }
 
 .text-logo {
@@ -243,6 +291,13 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
+.bottom {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/*portfolio*/
 
 .services {
   color: var(--NAVY-BLUE, #2e2f42);
