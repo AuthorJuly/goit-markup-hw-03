@@ -242,13 +242,12 @@ img {
 }
 
 .fourth-container {
-  padding: 120px;
-  margin-top: -120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   width: 1440px;
   background-color: #f4f4fd;
 }
 .fourth {
-  padding: 120px 0 120px;
   justify-content: center;
   margin-bottom: 72px;
   color: var(--NAVY-BLUE, #2e2f42);
@@ -262,7 +261,6 @@ img {
 .fourth-listing {
   height: 380px;
   flex-basis: calc((100%-72px) / 4);
-  border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
