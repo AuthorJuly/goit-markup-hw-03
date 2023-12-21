@@ -15,10 +15,6 @@
   --greycolor: #2e2f42;
   --dairycolor: #fcfcfc;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 h1,
 h2,
 h3,
@@ -190,6 +186,7 @@ img {
   visibility: hidden;
   pointer-events: none;
   position: absolute;
+  width: calc((100% - 48px) / 3);
 }
 
 .list-header {
