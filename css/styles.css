@@ -327,6 +327,9 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   margin-bottom: 120px;
+}
+
+.listing {
   width: calc((100% - 48px) / 3);
 }
 
